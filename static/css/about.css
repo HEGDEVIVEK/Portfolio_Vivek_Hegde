@@ -1,0 +1,66 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#about.container {
+  max-width: 960px;
+}
+
+.intro-container {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.intro-image {
+  flex: 1 1  200px;
+}
+
+.intro-image img {
+  max-width: 80%;
+  background-color: var(--grey-color);
+}
+
+.intro {
+  margin-left: 1rem;
+  flex: 1 1 60%;
+}
+
+.intro h1{
+margin-top: auto;
+}
+
+.intro p {
+  max-width: 40ch;
+}
+
+
+ .bold-text {
+  font-size: 1.5rem;
+  color: var(--grey-text);
+}
+
+.section-link {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 720px) {
+
+.intro {
+   flex-direction: column; /* Change flex direction to stack items vertically */
+         align-items: center; /* Center align items vertically */
+         text-align: justify;
+  }
+  .section-title {
+      text-align: center; /* Center align the bold text */
+    }
+  .intro-image {
+
+      margin-bottom: 20px; /* Add some space between logo and text */
+          margin-left: 40px;
+  }
+
+
+}

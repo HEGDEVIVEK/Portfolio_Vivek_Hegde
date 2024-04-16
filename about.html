@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1a324c">
+
+    <link rel="stylesheet" href="static/css/main.css" />
+    <link rel="stylesheet" href="static/css/about.css" />
+
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <script src="https://kit.fontawesome.com/045782a447.js" crossorigin="anonymous"></script>
+
+    <title>Vivek S Hegde</title>
+</head>
+
+
+
+<body>
+<nav class="visible">
+    <div class="container">
+        Vivek S Hegde
+
+        <div class="nav-links">
+            <a href="index.html" class="link">Home</a>
+            <a href="about.html" class="link active">about</a>
+            <a href="skills.html" class="link">Skills</a>
+            <a href="projects.html" class="link">projects</a>
+            <a href="education.html" class="link">education</a>
+            <a href="experience.html" class="link">experience</a>
+            <a href="mailto:hegdevivek78@gmail.com" class="link">Contact</a>
+        </div>
+        <div class="nav-controls">
+            <button id="menu-display" title="Show Menu"
+                    class="hamburger">
+            </button>
+
+            <button id="theme-display" class="control">
+                <i class="fa-solid fa-palette"></i>
+            </button>
+
+        </div>
+        <div class="theme-container">
+            <button class="light theme-select" id="light-select" onclick="setTheme('light')" aria-label="Set light theme">
+                <div class="theme-label">
+                    Light
+                </div>
+                <div class="theme">
+                    <div class="color background"></div>
+                </div>
+            </button>
+
+            <button class="dark theme-select" id="dark-select" onclick="setTheme('dark')"
+                    onkeydown="(e) => setThemeKey(e, 'dark')" aria-label="Set dark theme">
+                <div class="theme-label">
+                    Dark
+                </div>
+                <div class="theme">
+                    <div class="color background"></div>
+                </div>
+            </button>
+
+            <button class="brown theme-select" id="brown-select" onclick="setTheme('brown')" aria-label="Set brown theme">
+                <div class="theme-label">
+                    Brown
+                </div>
+                <div class="theme">
+                    <div class="color shade-100"></div>
+                </div>
+            </button>
+
+            <button class="green theme-select" id="green-select" onclick="setTheme('green')" aria-label="Set green theme">
+                <div class="theme-label">
+                    Green
+                </div>
+                <div class="theme">
+                    <div class="color shade-100"></div>
+                </div>
+            </button>
+
+            <button class="pink theme-select" id="pink-select" onclick="setTheme('pink')" aria-label="Set pink theme">
+                <div class="theme-label">
+                    Pink
+                </div>
+                <div class="theme">
+                    <div class="color shade-300"></div>
+                </div>
+            </button>
+
+        </div>
+    </div>
+</nav>
+<main>
+
+    <section id="about" class="container">
+        <div class="intro-container">
+            <div class="intro-image">
+                <img src="./static/images/about/Vivek.jpeg" alt="Vivek">
+            </div>
+            <div class="intro">
+                <h1 class="section-title">Hello, I'm Vivek </h1>
+                <p class="bold-text"> I am a Software Engineering , who is passionate about building software and applications that have a material impact on Real-world Problems.
+                    I have a stronghold on DataStructures and Algorithms.I have good programming and Problem Solving Ability and analytical skills.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-link container inner-container">
+        <a href="#"
+           class="link-btn">Download My Resume</a>
+    </div>
+</main>
+
+<div class="wave-border top">
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+        <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+              style="stroke: none; fill: var(--shade-100)"></path>
+        <path class="neon-path" d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98"
+              style="stroke: var(--neon-color);fill: none;"></path>
+    </svg>
+</div>
+<footer>
+
+    <div class="container">
+        <div class="social-media">
+            <a href="https://github.com/HEGDEVIVEK" title="Github">
+                <i class="devicon-github-original"></i>
+
+            </a>
+            <a href="https://www.linkedin.com/in/vivek-s-hegde-2001/" title="LinkedIn">
+                <i class="devicon-linkedin-plain"></i>
+
+            </a>
+        </div>
+        <div class="copyright">
+            &copy; designed & built by Vivek S Hegde</a>
+            <br>
+            <p><a href="mailto:hegdevivek78@gmail.com" class="link"> hegdevivek78@gmail.com</a></p>
+            <p><a href="tel:+919686527731">+91 9686527731</a></p>
+        </div>
+    </div>
+</footer>
+</body>
+
+<script src="./static/js/index.js"></script>
+<script src="./static/js/about.js"></script>
+
+</html>

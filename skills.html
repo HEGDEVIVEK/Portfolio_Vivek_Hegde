@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1a324c">
+
+    <link rel="stylesheet" href="static/css/main.css" />
+    <link rel="stylesheet" href="./static/css/skill.css" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio Website" />
+    <meta name="author" content="Vivek S Hegde" />
+
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <script src="https://kit.fontawesome.com/045782a447.js" crossorigin="anonymous"></script>
+
+<!--    <link rel="shortcut icon" href="./static/images/favicon.ico" />-->
+    <title>Vivek S Hegde</title>
+</head>
+
+
+<body>
+<nav class="visible">
+    <div class="container">
+        Vivek S Hegde
+
+        <div class="nav-links">
+            <a href="index.html" class="link">Home</a>
+            <a href="about.html" class="link">about</a>
+            <a href="skills.html" class="link active">Skills</a>
+            <a href="projects.html" class="link">projects</a>
+            <a href="education.html" class="link">education</a>
+            <a href="experience.html" class="link">experience</a>
+            <a href="mailto:hegdevivek78@gmail.com" class="link">Contact</a>
+        </div>
+
+        <div class="nav-controls">
+            <button id="menu-display" title="Show Menu" class="hamburger">
+
+            </button>
+            <button id="theme-display" class="control">
+                <i class="fa-solid fa-palette"></i>
+            </button>
+        </div>
+
+        <div class="theme-container">
+            <button class="light theme-select" id="light-select" onclick="setTheme('light')" aria-label="Set light theme">
+                <div class="theme-label">
+                    Light
+                </div>
+                <div class="theme">
+                    <div class="color background"></div>
+                </div>
+            </button>
+            <button class="dark theme-select" id="dark-select" onclick="setTheme('dark')"
+                    onkeydown="(e) => setThemeKey(e, 'dark')" aria-label="Set dark theme">
+                <div class="theme-label">
+                    Dark
+                </div>
+                <div class="theme">
+                    <div class="color background"></div>
+                </div>
+            </button>
+            <button class="brown theme-select" id="brown-select" onclick="setTheme('brown')" aria-label="Set brown theme">
+                <div class="theme-label">
+                    Brown
+                </div>
+                <div class="theme">
+                    <div class="color shade-100"></div>
+                </div>
+            </button>
+            <button class="green theme-select" id="green-select" onclick="setTheme('green')" aria-label="Set green theme">
+                <div class="theme-label">
+                    Green
+                </div>
+                <div class="theme">
+                    <div class="color shade-100"></div>
+                </div>
+            </button>
+            <button class="pink theme-select" id="pink-select" onclick="setTheme('pink')" aria-label="Set pink theme">
+                <div class="theme-label">
+                    Pink
+                </div>
+                <div class="theme">
+                    <div class="color shade-300"></div>
+                </div>
+            </button>
+        </div>
+    </div>
+</nav>
+
+
+
+    <div class="user">
+        <div class="tech">
+            <h2>Languages</h2>
+            <i class="devicon-python-plain-wordmark colored"></i>
+            <i class="devicon-java-plain-wordmark colored"></i>
+            <p>My favorite languages for systems programming, software engineering, and data analysis.</p>
+        </div>
+
+
+        <div class="tech">
+            <h2>Front-End</h2>
+            <i class="devicon-bootstrap-plain-wordmark colored"></i>
+            <i class="devicon-html5-plain-wordmark colored"></i>
+            <i class="devicon-css3-plain-wordmark colored"></i>
+            <p>My preferred technologies for front-end web development and component design.</p>
+        </div>
+
+
+        <div class="tech">
+            <h2>Back-End</h2>
+
+            <i class="devicon-spring-original-wordmark"></i>
+            <i class="devicon-mysql-plain-wordmark colored"></i>
+            <i class="devicon-mongodb-plain-wordmark colored"></i>
+            <i class="devicon-insomnia-plain colored"></i>
+
+            <p>My preferred technologies for back-end web programming and database architecture.</p>
+        </div>
+
+
+        <div class="tech">
+            <h2>Tools</h2>
+            <i class="devicon-git-plain-wordmark colored"></i>
+            <i class="devicon-github-original-wordmark"></i>
+            <i class="devicon-visualstudio-plain colored"></i>
+            <i class="devicon-vscode-plain-wordmark colored"></i>
+            <i class="devicon-intellij-plain colored"></i>
+
+
+            <p>My favorite tools for version control, code editing, and container orchestration.</p>
+        </div>
+    </div>
+
+
+</body>
+
+<script src="./static/js/index.js"></script>
+<script src="./static/js/about.js"></script>
+
+</html>

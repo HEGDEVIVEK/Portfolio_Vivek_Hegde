@@ -1,0 +1,51 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: 'Nunito Sans', sans-serif
+}
+
+
+
+h2
+strong {
+    margin-top: 1em;
+    padding-top: 1em;
+    line-height: 1.25;
+}
+
+.tech i {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.tech h2 {
+font-weight: bold;
+font-size: 2rem
+
+}
+
+.user {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.user p {
+    font-size: 16px
+}
+
+@media only screen and (min-width:550px) {
+    .user {
+        flex-wrap: nowrap;
+        font-size: 75px
+    }
+}
+
+

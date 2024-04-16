@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.experience {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.experience-item {
+  display: flex;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000; /* Add black border at the bottom */
+    padding-bottom: 5px; /* Add some space below the border */
+}
+
+.left {
+  flex: 0 0 100px;
+}
+
+.left img {
+  max-width: 80%;
+}
+
+.right {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.job-role {
+  font-weight: bold;
+}
+
+.company-name {
+  font-style: italic;
+}
+
+.working-year {
+  font-size: 0.9em;
+  color: #888;
+}
+
+.details {
+  margin-top: 5px;
+}
+.company-name,
+.working-year,
+.details {
+  margin-top: 5px; /* Reduce margin between company name, working year, and details */
+  margin-bottom: 5px; /* Reduce margin between company name, working year, and details */
+}
+
+.skills {
+  margin-top: 5px;
+}
+
+.skill {
+  display: inline-block;
+  font-size: 0.9em;
+  background-color: #f0f0f0;
+  color: #555;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.checkout-button {
+    background-color: transparent;
+    color: #007bff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid #007bff;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    text-align: center; /* Center the text horizontally */
+    margin: auto;
+}
+
+.checkout-button:hover {
+    background-color: green;
+    color: white;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .right {
+    flex-direction: column; /* Change flex direction to stack items vertically */
+    align-items: center; /* Center align items vertically */
+    text-align: center; /* Center align text */
+  }
+
+  .left {
+    margin-bottom: 20px; /* Add some space between logo and text */
+    margin-left: 10px;
+  }
+
+  .experience-item:not(:last-child) {
+    border-bottom: 2px solid #000; /* Add black border at the bottom for all but the last item */
+  }
+}

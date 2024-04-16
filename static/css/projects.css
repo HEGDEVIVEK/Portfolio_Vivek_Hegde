@@ -1,0 +1,111 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: 'Nunito Sans', sans-serif
+}
+
+
+.user-details {
+    margin-top: 40px;
+    text-align: center;
+    margin: 5px auto
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto
+}
+
+@media only screen and (min-width:550px) {
+    #projects {
+        width: 80%
+    }
+}
+
+.user-projects {
+    margin: 20px auto
+}
+
+.user-projects img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px
+}
+
+
+.user-projects p {
+    margin-right: 5px
+}
+
+.social-media {
+  display: flex;
+  margin-left: 30%;
+  align:center;
+}
+
+.social-media i {
+  margin-right: 10px;
+   font-size: 2.1rem;
+}
+
+@media only screen and (min-width:550px) {
+    .contents {
+        margin-left: 0;
+        width: 48%
+    }
+
+    .contents,
+    .contents-right {
+        margin-top: -5%
+    }
+
+    .contents-right,
+    .images-right {
+        float: right;
+        width: 48%
+    }
+
+    .images-right img {
+        float: right
+    }
+
+    .images-left {
+        float: left;
+        width: 48%
+    }
+
+    .images-left img {
+        float: left
+    }
+}
+
+.project-link {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px;
+    color: #1488CC;
+    background-color: transparent;
+    border: 1px solid #1488CC;
+    border-radius: 10px;
+    text-align: center;
+    outline: 0;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out
+}
+
+.project-link:active,
+.project-link:hover {
+    background-color: #5347a8;
+    border-color: #5347a8;
+    color: #fff;
+    transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
+}
+

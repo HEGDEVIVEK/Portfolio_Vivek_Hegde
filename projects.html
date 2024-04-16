@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1a324c">
+
+    <link rel="stylesheet" href="static/css/main.css" />
+    <link rel="stylesheet" href="./static/css/projects.css" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio Website" />
+    <meta name="author" content="Vivek S Hegde" />
+
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <script src="https://kit.fontawesome.com/045782a447.js" crossorigin="anonymous"></script>
+
+    <title>Vivek S Hegde</title>
+
+</head>
+
+
+<body>
+<nav class="visible">
+    <div class="container">
+        Vivek S Hegde
+
+        <div class="nav-links">
+            <a href="index.html" class="link">Home</a>
+            <a href="about.html" class="link">about</a>
+            <a href="skills.html" class="link">Skills</a>
+            <a href="projects.html" class="link active">projects</a>
+            <a href="education.html" class="link">education</a>
+            <a href="experience.html" class="link">experience</a>
+            <a href="mailto:hegdevivek78@gmail.com" class="link">Contact</a>
+        </div>
+        <div class="nav-controls">
+            <button id="menu-display" title="Show Menu" class="hamburger">
+
+            </button>
+            <button id="theme-display" class="control">
+                <i class="fa-solid fa-palette"></i>
+            </button>
+        </div>
+
+        <div class="theme-container">
+            <button class="light theme-select" id="light-select" onclick="setTheme('light')" aria-label="Set light theme">
+                <div class="theme-label">
+                    Light
+                </div>
+                <div class="theme">
+                    <div class="color background"></div>
+                </div>
+
+            </button>
+            <button class="dark theme-select" id="dark-select" onclick="setTheme('dark')"
+                    onkeydown="(e) => setThemeKey(e, 'dark')" aria-label="Set dark theme">
+                <div class="theme-label">
+                    Dark
+                </div>
+                <div class="theme">
+                    <div class="color background"></div>
+                </div>
+            </button>
+
+            <button class="brown theme-select" id="brown-select" onclick="setTheme('brown')" aria-label="Set brown theme">
+                <div class="theme-label">
+                    Brown
+                </div>
+                <div class="theme">
+                    <div class="color shade-100"></div>
+                </div>
+            </button>
+
+            <button class="green theme-select" id="green-select" onclick="setTheme('green')" aria-label="Set green theme">
+                <div class="theme-label">
+                    Green
+                </div>
+                <div class="theme">
+                    <div class="color shade-100"></div>
+                </div>
+            </button>
+
+            <button class="pink theme-select" id="pink-select" onclick="setTheme('pink')" aria-label="Set pink theme">
+                <div class="theme-label">
+                    Pink
+                </div>
+                <div class="theme">
+                    <div class="color shade-300"></div>
+                </div>
+            </button>
+
+        </div>
+    </div>
+</nav>
+
+
+
+
+<section id="projects">
+    <div class="user-details">
+        <h1>Featured Projects</h1>
+    </div>
+
+
+    <div class="user-projects">
+        <div class="images-right">
+            <picture>
+
+                <img alt="Personal Website" src="./static/images/Project/Capture.PNG" />
+            </picture>
+        </div>
+
+        <div class="contents" style="text-align: center">
+            <h3>PERSONAL PORTFOLIO</h3>
+
+            <div class="social-media"  style="text-align: center">
+                <i class="devicon-html5-plain-wordmark colored"></i>
+                <i class="devicon-css3-plain-wordmark colored"></i>
+                <i class="devicon-javascript-plain"></i>
+            </div>
+
+            <p style="text-align: justify">
+                I developed and designed a website using HTML CSS JS and Bootstrap, hosted on Github Pages, to showcase my web
+                presence, story, skills, work experience, education, projects in an interactive and
+                visually-appealing format.
+            </p>
+            <a class="project-link" target="_blank" href="https://github.com/HEGDEVIVEK/Portfolio_vivek.git">Check it out!</a>
+        </div>
+    </div>
+
+
+    <div class="user-projects">
+        <div class="images-left">
+            <picture>
+
+                <img alt="Covid19" src="./static/images/Project/covid.png" />
+            </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+            <h3>COVID 19 SENTIMENTAL ANALYSIS</h3>
+            <div class="social-media"  style="text-align: center">
+
+                <i class="devicon-python-plain-wordmark"></i>
+                <i class="devicon-html5-plain-wordmark colored"></i>
+                <i class="devicon-css3-plain-wordmark colored"></i>
+                <i class="devicon-javascript-plain"></i>
+            </div>
+
+            <p style="text-align: justify">
+                Opinion mining, commonly known as sentiment analysis, involves analyzing and classifying people’s attitudes and
+                emotions towards a particular subject. Twitter, As a major social media platform, with millions of daily users expressing
+                their thoughts and opinions,is a valuable source of data for sentiment analysis. Sentiment analysis of Twitter data involves
+                using natural language processing (NLP) techniques and machine learning algorithms to extract sentiment and emotion
+
+                from tweets.
+            </p>
+            <a class="project-link" target="_blank" href="https://github.com/HEGDEVIVEK/Covid19_sentimental_analysis.git">Check it out!</a>
+        </div>
+    </div>
+
+
+    <div class="user-projects">
+        <div class="images-right">
+            <picture>
+                <img alt="Sketch pad" src="./static/images/Project/Screenshot%20(73).png" />
+            </picture>
+        </div>
+        <div class="contents" style="text-align: center">
+            <h3>SKETCH PAD</h3>
+            <div class="social-media"  style="text-align: center">
+
+                <i class="devicon-cplusplus-plain"></i>
+
+                <!--                <img-->
+<!--                        height="32"-->
+<!--                        width="32"-->
+<!--                        src="https://unpkg.com/simple-icons@5.15.0/icons/cplusplus.svg"-->
+<!--                        style="filter: invert(96%) sepia(47%) saturate(4151%) hue-rotate(338deg) brightness(100%) contrast(95%)"-->
+<!--                />-->
+
+            </div>
+            <p style="text-align: justify">
+                Today, computers and computer-generated images touch many aspects of daily life. Computer
+                images is found on television, in newspapers, for example in weather reports, in all kinds of medical
+                investigation and surgical procedures. A well-constructed graph can present complex statistics in a
+                form that is easier to understand and interpret. In the media such graphs are used to illustrate papers,
+                reports, thesis, and other presentation material.Many powerful tools have been developed to visualize
+                data.
+            </p>
+            <a class="project-link" target="_blank" href="https://github.com/HEGDEVIVEK/SketchPad_Computer_graphics_project.git">
+                Check it out!
+            </a>
+        </div>
+    </div>
+
+</section>
+
+</body>
+
+<script src="./static/js/index.js"></script>
+<script src="./static/js/about.js"></script>
+
+</html>

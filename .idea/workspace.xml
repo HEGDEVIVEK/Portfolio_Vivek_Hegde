@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c1303764-876d-418b-9898-da2de2d15dbe" name="Changes" comment="Portfolio work" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Vivek_S_Hegde &lt;1rn19cs186.vivekhegde@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2el6VuYsFXtHpAQghaF3opVtUek" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/VIVEK HEGDE/Intellij IDEA/PORTFOLIO/RESUMEPORT",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VIVEK HEGDE\Intellij IDEA\PORTFOLIO\RESUMEPORT\.idea" />
+      <recent name="D:\VIVEK HEGDE\Intellij IDEA\PORTFOLIO\RESUMEPORT\.idea\static" />
+      <recent name="D:\VIVEK HEGDE\Intellij IDEA\PORTFOLIO\RESUMEPORT\.idea\static\css" />
+      <recent name="D:\VIVEK HEGDE\Intellij IDEA\PORTFOLIO\RESUMEPORT\.idea\static\js" />
+      <recent name="D:\VIVEK HEGDE\Intellij IDEA\PORTFOLIO\RESUMEPORT\.idea\static\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\VIVEK HEGDE\Intellij IDEA\PORTFOLIO\RESUMEPORT\.idea\static\css" />
+      <recent name="D:\VIVEK HEGDE\Intellij IDEA\PORTFOLIO\RESUMEPORT\.idea\static\images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1303764-876d-418b-9898-da2de2d15dbe" name="Changes" comment="" />
+      <created>1712466846739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712466846739</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Portfolio">
+      <option name="closed" value="true" />
+      <created>1712586731641</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712586731641</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Portfolio">
+      <option name="closed" value="true" />
+      <created>1712587476690</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712587476690</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Portfolio">
+      <option name="closed" value="true" />
+      <created>1712587516449</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712587516449</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Portfolio work">
+      <option name="closed" value="true" />
+      <created>1712591027163</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712591027163</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Portfolio work">
+      <option name="closed" value="true" />
+      <created>1712591215317</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712591215317</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Portfolio work">
+      <option name="closed" value="true" />
+      <created>1712591697702</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712591697702</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Portfolio work">
+      <option name="closed" value="true" />
+      <created>1712591759418</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712591759418</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Portfolio work">
+      <option name="closed" value="true" />
+      <created>1712593163201</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712593163201</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Portfolio work">
+      <option name="closed" value="true" />
+      <created>1712593170020</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712593170020</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Portfolio work">
+      <option name="closed" value="true" />
+      <created>1712593186702</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712593186702</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Portfolio work">
+      <option name="closed" value="true" />
+      <created>1712660039493</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712660039493</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Portfolio work">
+      <option name="closed" value="true" />
+      <created>1712660061658</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712660061658</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Portfolio work">
+      <option name="closed" value="true" />
+      <created>1712666678518</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712666678518</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Portfolio work">
+      <option name="closed" value="true" />
+      <created>1712666688696</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712666688696</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Portfolio project" />
+    <MESSAGE value="Portfolio" />
+    <MESSAGE value="Portfolio work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Portfolio work" />
+  </component>
+</project>

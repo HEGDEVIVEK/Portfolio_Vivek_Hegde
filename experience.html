@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1a324c">
+
+    <link rel="stylesheet" href="static/css/main.css" />
+    <link rel="stylesheet" href="./static/css/experience.css">
+
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <script src="https://kit.fontawesome.com/045782a447.js" crossorigin="anonymous"></script>
+
+    <title>Vivek S Hegde</title>
+
+</head>
+
+<body>
+<nav class="visible">
+    <div class="container">
+        Vivek S Hegde
+
+        <div class="nav-links">
+            <a href="index.html" class="link">Home</a>
+            <a href="about.html" class="link">about</a>
+            <a href="skills.html" class="link">Skills</a>
+            <a href="projects.html" class="link">projects</a>
+            <a href="education.html" class="link">education</a>
+            <a href="experience.html" class="link active">experience</a>
+            <a href="mailto:hegdevivek78@gmail.com" class="link">Contact</a>
+        </div>
+        <div class="nav-controls">
+            <button id="menu-display" title="Show Menu" class="hamburger">
+
+            </button>
+            <button id="theme-display" class="control">
+                <i class="fa-solid fa-palette"></i>
+            </button>
+        </div>
+        <div class="theme-container">
+            <button class="light theme-select" id="light-select" onclick="setTheme('light')" aria-label="Set light theme">
+                <div class="theme-label">
+                    Light
+                </div>
+                <div class="theme">
+                    <div class="color background"></div>
+                </div>
+            </button>
+            <button class="dark theme-select" id="dark-select" onclick="setTheme('dark')"
+                    onkeydown="(e) => setThemeKey(e, 'dark')" aria-label="Set dark theme">
+                <div class="theme-label">
+                    Dark
+                </div>
+                <div class="theme">
+                    <div class="color background"></div>
+                </div>
+            </button>
+            <button class="brown theme-select" id="brown-select" onclick="setTheme('brown')" aria-label="Set brown theme">
+                <div class="theme-label">
+                    Brown
+                </div>
+                <div class="theme">
+                    <div class="color shade-100"></div>
+                </div>
+            </button>
+            <button class="green theme-select" id="green-select" onclick="setTheme('green')" aria-label="Set green theme">
+                <div class="theme-label">
+                    Green
+                </div>
+                <div class="theme">
+                    <div class="color shade-100"></div>
+                </div>
+            </button>
+            <button class="pink theme-select" id="pink-select" onclick="setTheme('pink')" aria-label="Set pink theme">
+                <div class="theme-label">
+                    Pink
+                </div>
+                <div class="theme">
+                    <div class="color shade-300"></div>
+                </div>
+            </button>
+        </div>
+    </div>
+</nav>
+
+
+<div class="experience">
+    <div class="experience-item">
+        <div class="left">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwafjX1QH77eD53o5-NfX8ccajkHNyUL3Pjmba_V-cUA&s" alt="Company Logo">
+        </div>
+        <div class="right">
+            <h3 class="job-role">Application Development Associate</h3>
+            <p class="company-name">Accenture</p>
+            <p class="working-year">Sep 2023 - Present</p>
+            <p class="details">Details about the job experience go here. This can include responsibilities, achievements, etc.</p>
+            <div class="skills">
+                <p class="skill">Spring Boot</p>
+                <p class="skill">RESTful api</p>
+                <p class="skill">SQL</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="experience-item">
+        <div class="left">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT6vsNMtOR9s8bNDaiSlQSkYQVUuzz98IA8dR_rn6-Uw&s" alt="Company Logo">
+        </div>
+        <div class="right">
+            <h3 class="job-role">Full Stack Developer</h3>
+            <p class="company-name">TechieAid</p>
+            <p class="working-year">Internship - 2 month</p>
+            <p class="details">Details about the job experience go here. This can include responsibilities, achievements, etc.</p>
+            <div class="skills">
+                <p class="skill">HTML</p>
+                <p class="skill">CSS</p>
+                <p class="skill">SQL</p>
+                <p class="skill">Spring Boot</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="./static/js/index.js"></script>
+<script src="./static/js/about.js"></script>
+
+</html>

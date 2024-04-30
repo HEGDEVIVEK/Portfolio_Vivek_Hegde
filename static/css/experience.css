@@ -42,12 +42,18 @@ body {
   color: #888;
 }
 
+.Location {
+  font-size: 0.9em;
+  color: #888;
+}
+
 .details {
   margin-top: 10px;
 }
 
 .company-name,
-.working-year
+.working-year,
+.Location
 {
   margin-top: 5px; /* Reduce margin between company name, working year, and details */
   margin-bottom: 5px; /* Reduce margin between company name, working year, and details */
@@ -55,6 +61,7 @@ body {
 
 .skills {
   margin-top: 5px;
+
 }
 
 .skill {
@@ -62,9 +69,12 @@ body {
   font-size: 0.9em;
   background-color: #f0f0f0;
   color: #555;
-  padding: 5px 10px;
+  padding: 1px 5px;
   border-radius: 5px;
-  margin-right: 5px;
+  margin-right: 1px; /* Horizontal spacing */
+  margin-bottom: 0.1px;
+  margin-top: 2px;
+
 }
 
 /* Media Query for Mobile Devices */

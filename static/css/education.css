@@ -43,8 +43,11 @@ body {
 }
 
 .details {
+font-size: 0.9em;
   margin-top: 5px;
+  color: #888;
 }
+
 .company-name,
 .working-year,
 .details {

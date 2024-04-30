@@ -42,8 +42,9 @@ body {
   color: #888;
 }
 
-.Location {
+.location {
   font-size: 0.9em;
+  margin-top: 5px;
   color: #888;
 }
 
@@ -53,7 +54,7 @@ body {
 
 .company-name,
 .working-year,
-.Location
+.location
 {
   margin-top: 5px; /* Reduce margin between company name, working year, and details */
   margin-bottom: 5px; /* Reduce margin between company name, working year, and details */

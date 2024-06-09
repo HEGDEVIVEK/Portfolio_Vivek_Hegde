@@ -2,38 +2,26 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#1a324c">
 
-    <link rel="stylesheet" href="static/css/main.css">
-    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="static/css/main.css" />
+    <link rel="stylesheet" href="./static/css/index.css">
+
 
     <script src="https://kit.fontawesome.com/045782a447.js" crossorigin="anonymous"></script>
 
     <title>Vivek S Hegde</title>
+
 </head>
 
 <body>
 
-<!-- Header -->
-<div id="header-placeholder"></div>
-
-<!--<script>-->
-<!--    fetch('./header.html')-->
-<!--            .then(response => response.text())-->
-<!--            .then(data => {-->
-<!--                document.getElementById('header-placeholder').innerHTML = data;-->
-<!--                // Re-initialize the theme and menu functionality-->
-<!--                const script = document.createElement('script');-->
-<!--                script.src = 'static/js/index.js';-->
-<!--                document.body.appendChild(script);-->
-<!--            });-->
-<!--</script>-->
-
 <nav class="visible">
     <div class="container">
         Vivek S Hegde
+
 
         <div class="nav-links">
             <a href="index.html" class="link active">Home</a>
@@ -47,11 +35,10 @@
 
         <div class="nav-controls">
             <button id="menu-display" title="Show Menu" class="hamburger"></button>
+        </div>
 
-
-            <button id="theme-display" class="control">
-                <i class="fas fa-palette"></i>
-            </button>
+        <div class="control">
+        <button id="theme-display"> <i class="fas fa-palette"></i></button>
         </div>
 
 
@@ -96,31 +83,9 @@
     </div>
 </nav>
 
-
-
-<main>
-    <div class="containeroo">
-        <img src="https://t4.ftcdn.net/jpg/02/18/89/83/360_F_218898398_wnLuoR9GY4qhLB2tc7o3tSJbQCRfq0xc.jpg" alt="Background Image" class="background-image">
-        <div class="overlay">
-            <h1>Vivek S Hegde</h1>
-            <p>Check out my portfolio to know more about me!</p>
-        </div>
-    </div>
-</main>
-
-<!-- Footer -->
-<div id="footer-placeholder"></div>
-
-
-
-<script>
-     fetch('footer.html')
-         .then(response => response.text())
-         .then(data => document.getElementById('footer-placeholder').innerHTML = data);
-</script>
-
-<script src="static/js/index.js"></script>
-<script src="static/js/about.js"></script>
 </body>
+
+<script src="./static/js/index.js"></script>
+<script src="./static/js/about.js"></script>
 
 </html>

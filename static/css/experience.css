@@ -13,7 +13,7 @@ body {
   display: flex;
     margin-bottom: 20px;
     border-bottom: 2px solid #000; /* Add black border at the bottom */
-    padding-bottom: 5px; /* Add some space below the border */
+    padding-bottom: 15px; /* Add some space below the border */
 }
 
 .left {

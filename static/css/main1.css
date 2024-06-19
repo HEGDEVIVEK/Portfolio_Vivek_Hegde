@@ -1,0 +1,224 @@
+@import "./theme.css";
+@import "./utilities.css";
+@import "./animations.css";
+
+
+body {
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: left top;
+  font-family: "Inter", sans-serif;
+  background-color: white;
+  
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+button {
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+   cursor: pointer;
+}
+
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: rgb(163, 221, 237);   /* backgorund of nav */
+  transition: top 500ms;
+  border-radius: 10px;
+}
+
+nav.js-nav {
+  opacity: 0;
+}
+
+.js-nav.visible {
+  z-index: 50;
+  animation: fade-in 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.js-nav.visible.scroll-up {
+  top: 0;
+}
+
+.js-nav.visible.scroll-down {
+  top: -20%;
+}
+
+.js-nav.hidden {
+  animation: fade-out 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  margin: -1em 0;
+  flex: 1 0 auto;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-links .link {
+  position: relative;
+  margin: 1em;
+  color: black;
+  font-size: 0.85rem;                 /* menu list name */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav-links .link:before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  background-color: rgb(25, 227, 173);     /* navlink color */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  max-width: 0;
+  transition: max-width 500ms;
+}
+
+
+
+.nav-links .link:hover:before,
+.nav-links .link:focus:before,
+.nav-links .link.active:before {
+  max-width: 10rem;
+}
+
+.js-nav .nav-controls {
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.js-nav .nav-controls .hamburger {
+  width: 1.5rem;
+  margin: 0 1.5rem;
+  height: 0.75rem;
+  position: relative;
+}
+
+.js-nav .nav-controls .hamburger:before,
+.js-nav .nav-controls .hamburger:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: black;          /* menu icon */
+  left: 0;
+  margin: auto;
+  transition: transform 500ms;
+}
+
+.nav-controls .hamburger:before {
+  top: 0;
+}
+
+.nav-controls .hamburger:after {
+  bottom: 0;
+}
+
+.nav-controls .hamburger.active:before {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+
+.nav-controls .hamburger.active:after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+
+
+@media screen and (min-width: 721px) {
+  .hamburger,
+  .nav-links .social-media {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .logo {
+    font-size: 1rem;
+  }
+
+  .js-nav .nav-links {
+    position: absolute;
+    padding: 2rem;
+    right: 0;
+    top: 4.5rem;
+    left: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 0px 0 10px 1px rgb(0 0 0 / 20%);
+    border-radius: 0.25em;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .js-nav .nav-links.visible {
+    z-index: 50;
+    background-color: white;
+    visibility: visible;
+    animation: fade-in-top 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  }
+
+  .js-nav .nav-links .social-media {
+    display: flex;
+    margin: 1rem -0.5rem;
+  }
+
+  .js-nav .nav-links .social-media a {
+    margin: 0 1rem;
+    font-size: 1.1rem;
+  }
+
+  footer .support.container {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .scroll-in.js-opacity {
+    opacity: 1;
+    animation: none !important;
+  }
+}
+
+
+.dark-mode
+{
+  background-color: black;
+  color: white;
+}
+
+.name
+{
+    color: rgb(1, 1, 15);
+}
+
+
